@@ -85,7 +85,12 @@ main {
         align-items: center;
         justify-content: center;
 
-        .foo {
+        .main--center__upper--img {
+          width: 485px;
+          overflow: hidden;
+        }
+
+        div {
           display: flex;
           align-items: center;
           justify-content: center;

@@ -76,7 +76,11 @@ main .main--center .main--center__upper .main--center__upper--promotion {
   align-items: center;
   justify-content: center;
 }
-main .main--center .main--center__upper .main--center__upper--promotion .foo {
+main .main--center .main--center__upper .main--center__upper--promotion .main--center__upper--img {
+  width: 485px;
+  overflow: hidden;
+}
+main .main--center .main--center__upper .main--center__upper--promotion div {
   display: flex;
   align-items: center;
   justify-content: center;

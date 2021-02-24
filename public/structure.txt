@@ -62,4 +62,4 @@ main
           > main--trending-now--img
             main--trending-now--text
 
-style__size__icon
+style__icon__size
