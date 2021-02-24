@@ -1,0 +1,117 @@
+* {
+  outline: 0.5px solid blue;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  min-width: 977px;
+  padding-top: 43px;
+}
+header .header--logo {
+  margin: 0 10px;
+  width: 119px;
+  height: auto;
+}
+header .header--search {
+  position: relative;
+  width: 570px;
+  padding: 16px 60px 14px 30px;
+  border: 1px solid #cecfd1;
+  border-radius: 10px;
+  background-color: #fff;
+}
+header .header--search--button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 23px;
+  height: 23px;
+}
+
+nav {
+  width: 100%;
+  margin-top: 40px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+}
+nav div {
+  display: flex;
+  align-items: center;
+}
+nav .nav--regular ul {
+  display: flex;
+}
+nav .nav--regular ul li {
+  padding: 0 10px;
+}
+nav .nav__right {
+  display: flex;
+  margin-left: auto;
+  padding: 0 20px;
+}
+nav .nav__right div {
+  padding: 10px;
+}
+
+main {
+  width: 1274px;
+}
+main .main--center {
+  width: 1274px;
+}
+main .main--center .main--center__upper {
+  display: flex;
+}
+main .main--center .main--center__upper .main--center__upper--bestselling {
+  width: 510px;
+}
+main .main--center .main--center__upper .main--center__upper--promotion {
+  position: relative;
+  width: 763px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main--center .main--center__upper .main--center__upper--promotion .foo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main--center .main--center__upper .main--center__upper--promotion .main--center__upper--page {
+  position: absolute;
+  bottom: 8%;
+}
+main .main--center .main--center__upper .main--center__upper--promotion .main--center__upper--page img {
+  width: 15px;
+}
+main .main--center .main--center__lower .main--center__lower--mdPick {
+  width: 1274px/5;
+}
+
+.style__icon__size {
+  width: 28px;
+  height: 28px;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+div,
+img {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

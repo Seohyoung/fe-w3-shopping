@@ -1,0 +1,65 @@
+<Requirements>
+1. carousel
+- carousel ux
+- should be operated using animation effects
+- should requests contents from server
+2. trending-now
+- show total 10 contents
+- when click prev/next button for 2 seconds, 
+  should be moved by 2 item
+- carousel ux
+3. see more
+- when click see more button, new row is loaded as asynchronous communication
+
+<HTML structure>
+- .block(.블럭)은 더 높은 단계의 추상(abstraction) 혹은 구성요소(component)를 나타낸다.
+- .block__element(.블럭__요소)는 .block의 자식을 나타낸다. 자식은 .block을 형성하는 일부다.
+- .block--modifier(.블럭--수식어)는 .block의 다른 상태나 버전을 나타낸다.
+
+header
+    header--logo
+    header--search
+    ​	header--search--input
+    ​	header--search--button
+nav
+    nav--category
+        nav--category--text
+        nav--category--icon
+    nav--regular
+        list * 4
+        > nav--regular--deals
+          nav--regular--bestselling
+          nav--regular--sales
+          nav--regular--promotions
+    nav--tag
+        list * 6
+    nav--login
+        nav--login--text
+        nav--login--icon
+    nav--browsing-history
+        nav--browsing-history--text
+        nav--browsing-history--icon
+        nav--browsing-history--downwardIcon
+main
+    main--center
+        main--center__upper
+            main--center__upper--bestselling
+            main--center__upper--promotion
+                main--center__upper--prev
+                main--center__upper--img
+                main--center__upper--next
+                main--center__upper--page
+
+        main--center__lower
+            main--center__lower--mdPick
+                li * 5
+                > main--center__lower--mdPick--img
+                  main--center__lower--mdPick--text
+                  main--center__lower--mdPick--icon
+    main--see-more
+    main--trending-now
+        li * 5
+          > main--trending-now--img
+            main--trending-now--text
+
+style__size__icon
